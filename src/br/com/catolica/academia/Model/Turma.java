@@ -15,6 +15,10 @@ public class Turma {
         this.atividades = new ArrayList<>();
     }
 
+    public String getNome() {
+        return nome;
+    }
+
     public void adicionarAluno(Aluno aluno) {
         if (!alunos.contains(aluno)) {
             alunos.add(aluno);

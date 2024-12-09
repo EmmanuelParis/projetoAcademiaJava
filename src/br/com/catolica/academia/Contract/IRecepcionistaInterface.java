@@ -2,8 +2,11 @@ package br.com.catolica.academia.Contract;
 
 public interface IRecepcionistaInterface {
 
-    void registrarAtendimento(String cpfCliente, String descricao);
-    void listarAtendimentos();
+    void cadastrarAluno();
     void alterarTurno(String novoTurno);
+    void exibirMenu();
+    void cadastrarProfessor();
+    void listarAlunos();
+    void listarProfessores();
 
 }

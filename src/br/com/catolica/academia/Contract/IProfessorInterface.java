@@ -4,7 +4,9 @@ import br.com.catolica.academia.Model.Turma;
 
 public interface IProfessorInterface {
 
-    Turma criarTurma(String nomeDaTurma);
-    void listarTurma();
+    void exibirMenu();
+    void listarTurmas();
+    void criarTurma(String nomeDaTurma);
+
 
 }
